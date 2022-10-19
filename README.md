@@ -1,6 +1,6 @@
 # reactnative-build
 
-React-native-debug
+#React-native-debug
 react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
 
 cd android
@@ -10,7 +10,7 @@ cd android
 yourProject/android/app/build/outputs/apk/debug/app-debug.apk
 
 
-React-native-signed-APK
+#React-native-signed-APK
 
 /Generating a signing key #
 //generate a private signing key using keytool.
